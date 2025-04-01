@@ -1,26 +1,26 @@
 ## PyDataPurifier 🐍📊🧹
-PyDataPurifier is an automated Python tool designed to streamline the process of data cleaning and preprocessing 🧑‍💻. Whether you're handling messy datasets from various sources 📊 or need to prepare data for machine learning models 🤖, PyDataPurifier simplifies the entire workflow. This tool ensures that your datasets are not only clean ✨ but also ready for insightful analysis 🔍, making data wrangling more efficient and less error-prone.
+PyDataPurifier is an automated Python tool designed to streamline the process of data cleaning and preprocessing. Whether you're handling messy datasets from various sources or need to prepare data for machine learning models, PyDataPurifier simplifies the entire workflow. This tool ensures that your datasets are not only clean ✨ but also ready for insightful analysis, making data wrangling more efficient and less error-prone.
 
 ## Features ✨
-  **1. Missing Data Imputation 🧹:**
+  **1. Missing Data Imputation :**
   Automatically handles missing values in your dataset. For numeric columns, missing values are filled with the column's mean value, while for non-numeric columns, rows with missing values are removed, ensuring the data remains clean and consistent.
-  🔧 Perfect for datasets with missing entries that could skew analysis.
+  Perfect for datasets with missing entries that could skew analysis.
   
-  **2. Duplicate Records Handling 🛑:**
+  **2. Duplicate Records Handling :**
   Identifies duplicate rows in your dataset and removes them to ensure no redundancy in the data. It also saves duplicates in a separate file for review, ensuring that no important data is lost during cleaning.
-  ⚠️ Prevents repetitive data entries from affecting your analysis or machine learning models.
+  Prevents repetitive data entries from affecting your analysis or machine learning models.
   
-  **3. Data Type Conversion 🔄:**
+  **3. Data Type Conversion :**
   Automatically converts columns to their appropriate data types (e.g., numeric columns to float, date strings to datetime), improving data consistency and compatibility with various tools and models.
-  🔧 Ensures that all data is formatted correctly for further processing and analysis.
+  Ensures that all data is formatted correctly for further processing and analysis.
   
- **4. Flexible Input Support 📂:**
+ **4. Flexible Input Support :**
   Supports both .csv and .xlsx file formats, making it easier to work with a variety of data sources. 
-  🌍 A versatile solution for handling diverse datasets from multiple sources.
+  A versatile solution for handling diverse datasets from multiple sources.
   
-  **5. Customizable Cleaning Process ⚙️:**
+  **5. Customizable Cleaning Process :**
   Offers a highly customizable cleaning pipeline where you can choose which data cleaning steps to apply based on your dataset's needs. Whether it’s removing duplicates, handling missing values, or more complex transformations, you have full control.
-  🛠️ Perfect for users with unique data processing requirements.
+  Perfect for users with unique data processing requirements.
 
 ## Installation 🛠️
 **1. Clone the repository:**
