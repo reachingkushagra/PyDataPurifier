@@ -30,7 +30,7 @@ def data_cleaning_master(data, data_name):
     return data
 
 def main():
-    st.title("PyDataPurifier: Automated Data Cleaning")
+    st.title("PyDataPurifier 🐍📊🧹")
     st.sidebar.header("Upload Dataset")
     file = st.sidebar.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
     if file is not None:
